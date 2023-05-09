@@ -218,9 +218,9 @@ img{
 }
 .home__img{
   position: absolute;
-  right: 10px;
+  right: 20px;
   bottom: 10px;
-  width: 295px;
+  top: 420px;
 }
 
 /*BUTTONS*/
@@ -248,8 +248,9 @@ img{
   justify-self: center;
 }
 .about__img img{
-  width: 200px;
+  width: 300px;
   border-radius: .5rem;
+  border-radius: 50%;
 }
 
 /* ===== SKILLS =====*/
@@ -317,7 +318,7 @@ img{
   box-shadow: 0 4px 25px rgba(14,36,49,.15);
   border-radius: .5rem;
   overflow: hidden;
-  grid-row: 1/3;
+  /* grid-row: 1/3; */
 }
 .work__img img{
   transition: 1s;
@@ -413,7 +414,7 @@ img{
     padding-top: 0;
     padding-bottom: 2.5rem;
     flex-direction: row;
-    align-self: flex-end;
+    /* align-self: flex-end; */
   }
   .home__social-icon{
     margin-bottom: 0;
@@ -451,6 +452,7 @@ img{
     margin-right: auto;
   }
   .home__img{
-    right: 15%;
+    top: 25%;
+    /* right: 15%; */
   }
 }
